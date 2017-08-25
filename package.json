@@ -1,0 +1,16 @@
+{
+  "name": "vue-mqtt",
+  "version": "0.0.1",
+  "description": "MQTT plugin for VueJS",
+  "main": "index.js",
+  "repository": "git@github.com:bambil/vue-mqtt",
+  "contributors": [
+    {
+      "name": "Parham Alvani (@1995parham)"
+    },
+    {
+      "name": "Iman Tabrizian (@Tabrizian)"
+    }
+  ],
+  "license": "MIT"
+}
