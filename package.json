@@ -12,5 +12,8 @@
       "name": "Iman Tabrizian (@Tabrizian)"
     }
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mqttsocket": "^1.0.1"
+  }
 }
