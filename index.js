@@ -1,4 +1,4 @@
-import Mqtt from 'lib/mqtt'
+import Mqtt from './lib/mqtt'
 
 export default {
   install(Vue, options) {
