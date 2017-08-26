@@ -7,7 +7,10 @@ export default {
         const client = await Mqtt.connect(options)
         Vue.prototype.$mqtt = client
       }
+      methods: {
+        publish: (topic, message) {
+        }
+      }
     })
-
   }
 }
