@@ -1,15 +1,11 @@
-const mqtt = require('./lib/mqtt')
+import mqtt from './lib/mqtt'
 
-module.exports = {
+export default {
   install (Vue, options) {
     Vue.mixin({
       created: async () => {
         const client = await mqtt.connect(options)
         Vue.prototype.$mqtt = client
-      }
-      methods: {
-        publish: (topic, message) {
-        }
       }
     })
   }
