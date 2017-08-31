@@ -7,6 +7,10 @@ module.exports = {
         const client = await mqtt.connect(options)
         Vue.prototype.$mqtt = client
       }
+      methods: {
+        publish: (topic, message) {
+        }
+      }
     })
   }
 }
