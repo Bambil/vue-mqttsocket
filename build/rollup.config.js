@@ -6,7 +6,7 @@ const {name, dependencies} = require("../package.json");
 
 const base = path.resolve(__dirname, "..")
 const dist = path.resolve(base, "dist")
-const lib = path.resolve(base, "lib")
+const lib = path.resolve(base, ".")
 
 
 if (!fs.existsSync(dist)) {
