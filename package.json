@@ -2,7 +2,7 @@
   "name": "vue-mqtt",
   "version": "0.0.1",
   "description": "MQTT plugin for VueJS",
-  "main": "index.js",
+  "main": "dist/vue-mqtt.esm.js",
   "repository": "git@github.com:bambil/vue-mqtt",
   "contributors": [
     {
