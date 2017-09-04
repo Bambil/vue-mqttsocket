@@ -2,7 +2,7 @@
   "name": "vue-mqtt",
   "version": "0.0.1",
   "description": "MQTT plugin for VueJS",
-  "main": "dist/vue-mqtt.esm.js",
+  "main": "dist/vue-mqtt.js",
   "repository": "git@github.com:bambil/vue-mqtt",
   "contributors": [
     {
@@ -17,11 +17,13 @@
     "mqttsocket": "^1.0.1"
   },
   "scripts": {
-    "build": "rollup -c build/rollup.config.js",
-    "watch": "rollup -c build/rollup.config.js --watch"
+    "build": "webpack"
   },
   "devDependencies": {
-    "lodash": "^4.17.4",
-    "rollup": "^0.49.2"
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^3.5.5"
   }
 }
