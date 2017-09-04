@@ -1,9 +1,12 @@
 const path = require('path');
 
 module.exports = {
-  entry: '.',
+  entry: [
+    'babel-polyfill',
+    '.'
+  ],
   output: {
-    filename: 'vue-mqtt.js',
+    filename: 'vue-mqttsocket.js',
     path: path.resolve(__dirname, 'dist'),
     libraryTarget: 'umd'
   },
