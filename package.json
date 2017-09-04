@@ -1,5 +1,5 @@
 {
-  "name": "vue-mqtt",
+  "name": "vue-mqttsocket",
   "version": "0.0.1",
   "description": "MQTT plugin for VueJS",
   "main": "dist/vue-mqtt.js",
