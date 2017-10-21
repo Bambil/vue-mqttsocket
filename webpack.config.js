@@ -2,8 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: [
-    'babel-polyfill',
-    '.'
+    './index.js'
   ],
   output: {
     filename: 'vue-mqttsocket.js',

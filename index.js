@@ -1,8 +1,8 @@
 import mqtt from './lib/mqtt'
 
 export default {
-  async install (Vue, options) {
-    const client = await mqtt.connect(options)
+  install (Vue, options) {
+    const client = mqtt.connect(options)
     Vue.prototype.$mqtt = client
   }
 }
